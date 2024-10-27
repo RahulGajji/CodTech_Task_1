@@ -1,0 +1,359 @@
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+
+
+
+.r_letter_logo {
+  width: 4vh;
+}
+
+/*________________________________________________________________________________________________________________*/
+/*Navigation section*/
+
+
+
+.nav_bar {
+
+  background-color: rgb(34, 51, 111);
+
+}
+
+
+.nav_bar_names {
+
+
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+
+}
+
+.nav_bar_names:hover {
+
+  text-decoration: underline;
+  color: rgb(246, 255, 0);
+  cursor: pointer;
+}
+
+
+
+.nav_button {
+
+  background-color: rgb(34, 51, 111) !important;
+  border: 1px solid rgb(255, 255, 255) !important;
+  
+}
+
+
+.burger-icon {
+
+  color: white !important;
+ 
+}
+
+
+/*________________________________________________________________________________________________________________*/
+/*home section*/
+
+
+.home_main_container {
+
+  height: 100vh;
+  background-color: rgb(61, 86, 176);
+}
+
+
+.home_container_information {
+
+  text-align: justify;
+
+}
+
+
+.profile_image {
+
+  
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+
+
+.profile_image_sm {
+
+  border-radius: 50%;
+  width: 90px;
+  height: 100px;
+  cursor: pointer;
+
+}
+
+
+.greeting_hello {
+
+  color: rgb(200, 254, 25);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+
+.home_paragraph {
+
+  color: rgb(255, 255, 255);
+  font-family:'Times New Roman', Times, serif;
+  cursor: pointer;
+
+}
+
+.contact_button {
+
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(34, 51, 111) ;
+  padding: 5px;
+
+}
+
+/*_____________________________________________________________________________________________________________________*/
+/*About section*/
+
+
+.about_main_container {
+  height: 100vh;
+  background-color: rgb(61, 86, 176);
+  padding-top: 100px;
+}
+
+
+.aboutme_container_information {
+
+  text-align: justify;
+  overflow:scroll;
+
+}
+
+
+.know_me_heading{
+
+  color: rgb(255, 196, 0);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+
+.know_me_paras {
+  color: rgb(255, 255, 255);
+  font-family:'Times New Roman', Times, serif;
+  cursor: pointer;
+
+}
+
+
+
+/*_____________________________________________________________________________________________________________________*/
+/*Skills section*/
+
+
+
+
+.skills_main_container {
+  height: 100vh;
+  background-color: rgb(61, 86, 176);
+  padding-top: 100px;
+}
+
+
+.skills_container_information {
+
+  text-align: justify;
+
+}
+
+.Skills_heading {
+
+  color: rgb(255, 196, 0);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+
+
+
+.bar_container {
+
+  height: 1vh;
+  background-color: rgb(216, 213, 213);
+  border-radius: 20px;
+}
+
+
+
+.skill_name {
+
+  color: rgb(255, 255, 255);
+  font-family:'Times New Roman', Times, serif;
+}
+
+.skills_percentage {
+  color: rgb(173, 243, 152);
+  font-family:'Times New Roman', Times, serif;
+
+}
+
+
+.mini_bar_container_1 {
+
+
+  height: 1vh;
+  border-radius: 20px;
+  background-color: greenyellow;
+  width: 90%;
+}
+
+
+.mini_bar_container_2 {
+
+
+  height: 1vh;
+  border-radius: 20px;
+  background-color: greenyellow;
+  width: 85%;
+}
+
+
+.mini_bar_container_3 {
+
+
+  height: 1vh;
+  border-radius: 20px;
+  background-color: greenyellow;
+  width: 80%;
+}
+
+
+
+.mini_bar_container_4 {
+
+
+  height: 1vh;
+  border-radius: 20px;
+  background-color: greenyellow;
+  width: 75%;
+}
+
+
+
+/*_____________________________________________________________________________________________________________________*/
+/*Eduction section*/
+
+
+
+.education_main_container {
+  height: 100vh;
+  background-color: rgb(61, 86, 176);
+  padding-top: 100px;
+}
+
+
+.education_container_information {
+
+  text-align: justify;
+
+}
+
+
+.education_images {
+  width: 100px;
+  border-radius: 10px;
+  height: 100px;
+}
+
+.education_information {
+
+  color: rgb(233, 223, 223);
+  font-family:'Times New Roman', Times, serif;
+}
+
+
+/*_____________________________________________________________________________________________________________________*/
+/*Projects section*/
+
+
+
+
+.projects_main_container {
+
+  height: 100vh;
+  background-color: rgb(61, 86, 176);
+  padding-top: 100px;
+}
+
+
+.projects_container_information {
+
+  text-align: justify;
+
+
+}
+
+
+
+/*_____________________________________________________________________________________________________________________*/
+/*contacts section*/
+
+
+.contact_main_container {
+
+ 
+  background-color: rgb(61, 86, 176);
+  height: 100vh;
+  padding-top: 70px;
+}
+
+.contact_section_container {
+
+  height: 70vh;
+  
+}
+
+
+
+
+
+
+.inputs_box {
+
+  margin: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+
+.submit {
+
+  border-radius: 5px;
+  border: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(176, 252, 100);
+  padding: 5px;
+}
+
+
+.icon {
+
+  color: white;
+  font-size: 25px;
+  margin: 10px;
+}
+
+
+.footer_container {
+
+
+color: white;
+background-color: rgb(34, 51, 111);
+height: 30vh;
+padding-top: 20px;
+}
